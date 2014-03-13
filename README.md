@@ -5,6 +5,13 @@ Another tiny tool! Being french usually has no real downside, but when it comes 
 
 The sole goal of this utility is to go though your files, and gently tells you to rename them if there is a non-ASCII character in it.
 
+Usage
+=====
+
+	listaccentuatedcharacters fullpath [forbidden_name_1 [forbidden_name_2 [...]]]
+	
+Where `forbidden_name` is just really meaning *ignored*, files and folders with this particular name will be skipped from the analysis.
+
 Known issues
 ============
 
